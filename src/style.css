@@ -2,6 +2,10 @@ body {
   height: 100vh;
   margin: 0;
   background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .weather-app {
@@ -11,6 +15,18 @@ body {
   margin: 45px auto;
   max-width: 600px;
   padding: 30px;
+}
+
+.cloud {
+  max-width: 50px;
+}
+
+.header {
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 40px;
 }
 
 .coder {
