@@ -39,9 +39,9 @@
         <div>
           <h1 class="weather-app-city" id="city">Vancouver</h1>
           <p class="weather-app-time">
-            <span class="change-parameters">Current Time:</span>
+            <span class="change-parameters">Local Time:</span>
             <br />
-            <strong>Tuesday 14:49</strong>
+            <strong><span id="time"></span></strong>
           </p>
           <div class="weather-app-temperature-container">
             <div class="weather-app-icon">🌤️</div>
@@ -49,11 +49,11 @@
             <div class="weather-app-unit">&deg;C</div>
           </div>
           <p class="weather-app-details">
-            Scattered Clouds
+            <span id="description"></span>
             <br />
-            Humidity: <strong>66%</strong>
+            Humidity: <strong id="humidity"></strong>
             <br />
-            Wind: <strong>3.13km/hr</strong>
+            Wind: <strong id="wind-speed"></strong>
           </p>
         </div>
       </div>
