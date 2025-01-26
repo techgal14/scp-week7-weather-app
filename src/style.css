@@ -114,12 +114,12 @@ footer {
 }
 
 .weather-app-icon {
-  font-size: 40px;
-  margin-top: 22px;
+  width: 95px;
+  height: 88px;
 }
-
 .weather-app-temperature-value {
   font-size: 75px;
+  line-height: 88px;
   font-weight: bold;
   margin-left: 10px;
 }
