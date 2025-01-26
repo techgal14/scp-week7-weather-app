@@ -15,7 +15,7 @@ main {
 footer {
   border-top: 1px solid #dee7ec;
   color: rgba(0, 0, 0, 0.6);
-  font-size: 14px;
+  font-size: 12px;
   padding: 20px 0 0 0;
   text-align: center;
 }
@@ -75,7 +75,7 @@ footer {
 
 .weather-app-city {
   margin: 0;
-  font-size: 48px;
+  font-size: 45px;
   line-height: 58px;
   position: relative;
   top: 10px;
@@ -86,8 +86,8 @@ footer {
   font-size: 18px;
   line-height: 28px;
   position: relative;
-  bottom: 55px;
-  left: 400px;
+  bottom: 65px;
+  left: 430px;
 }
 
 .change-parameters {
@@ -98,8 +98,8 @@ footer {
   font-size: 16px;
   line-height: 26px;
   position: relative;
-  bottom: 183px;
-  left: 400px;
+  bottom: 180px;
+  left: 430px;
 }
 
 .weather-app-details strong {
@@ -110,7 +110,7 @@ footer {
   display: flex;
   position: relative;
   bottom: 70px;
-  left: 70px;
+  left: 40px;
 }
 
 .weather-app-icon {
