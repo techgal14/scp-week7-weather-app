@@ -87,7 +87,7 @@ footer {
   line-height: 28px;
   position: relative;
   bottom: 65px;
-  left: 550px;
+  left: 515px;
 }
 
 .change-parameters {
@@ -99,7 +99,7 @@ footer {
   line-height: 26px;
   position: relative;
   bottom: 175px;
-  left: 550px;
+  left: 515px;
 }
 
 .weather-app-details strong {
@@ -110,7 +110,6 @@ footer {
   display: flex;
   position: relative;
   bottom: 70px;
-  left: 15px;
 }
 
 .weather-app-icon {
@@ -122,11 +121,16 @@ footer {
   line-height: 88px;
   font-weight: bold;
   margin-left: 10px;
+  position: relative;
+  left: -10px;
 }
 
 .weather-app-unit {
   margin-top: 20px;
   font-size: 28px;
+  position: relative;
+  bottom: 8px;
+  left: -5px;
 }
 
 .coder {
