@@ -30,15 +30,22 @@ footer {
 }
 
 .cloud {
-  max-width: 50px;
+  max-width: 60px;
+  position: relative;
+  top: 30px;
+  left: 15px;
 }
 
 .header {
+  color: #005f8c;
   font-family: "Dancing Script", serif;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
   font-size: 50px;
+  position: relative;
+  bottom: 30px;
+  left: 90px;
 }
 
 .search-form-input {
@@ -63,6 +70,7 @@ footer {
 .weather-app-data {
   display: flex;
   justify-content: space-between;
+  height: 250px;
 }
 
 .weather-app-city {
@@ -71,7 +79,7 @@ footer {
   line-height: 58px;
   position: relative;
   top: 10px;
-  left: 20px;
+  left: 40px;
 }
 
 .weather-app-time {
@@ -79,7 +87,7 @@ footer {
   line-height: 28px;
   position: relative;
   bottom: 55px;
-  left: 425px;
+  left: 400px;
 }
 
 .change-parameters {
@@ -89,6 +97,9 @@ footer {
 .weather-app-details {
   font-size: 16px;
   line-height: 26px;
+  position: relative;
+  bottom: 183px;
+  left: 400px;
 }
 
 .weather-app-details strong {
@@ -99,7 +110,7 @@ footer {
   display: flex;
   position: relative;
   bottom: 70px;
-  left: 20px;
+  left: 70px;
 }
 
 .weather-app-icon {
